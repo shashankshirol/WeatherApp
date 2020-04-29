@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Bowlby One SC', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url('/assets/images/bg.jpg');
+    background-image: url('../images/bg.jpg');
     background-size: cover;
     background-position: top center;
 }
