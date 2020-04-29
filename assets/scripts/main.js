@@ -10,7 +10,7 @@ searchbox.addEventListener('focus', function(){
     about.style.display = 'none';
 });
 searchbox.addEventListener('focusout', function(){
-    about.style.display = 'flex';
+    about.style.display = 'block';
 });
 function setQuery(event){
     if(event.keyCode == 13){
