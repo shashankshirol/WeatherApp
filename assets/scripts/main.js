@@ -7,10 +7,10 @@ const searchbox = document.querySelector('.search-box');
 const about = document.querySelector('.about');
 searchbox.addEventListener('keypress', setQuery);
 searchbox.addEventListener('focus', function(){
-    about.style.display = 'none';
+    about.style.visibility = 'hidden';
 });
 searchbox.addEventListener('focusout', function(){
-    about.style.display = 'block';
+    about.style.visibility = 'visible';
 });
 function setQuery(event){
     if(event.keyCode == 13){
