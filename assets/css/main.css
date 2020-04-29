@@ -99,11 +99,12 @@ main{
 
 .about{
     font-family: 'Nunito Sans', Calibri, 'Trebuchet MS', sans-serif;;
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     padding-bottom: 10px;
     width: 100%;
+    overflow: hidden;
     color: white;
     text-align: center;
 }
