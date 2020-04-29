@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WeatherApp</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/icon type">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
+    <div class="app-wrap">
+        <header>
+            <img src="assets/images/logo.png" alt="The WeatherApp" class="img-logo">
+            <input type="text" autocomplete="off" class="search-box" placeholder="Enter a city" />
+        </header>
+        <main>
+            <section class="location">
+                <div class="city"></div>
+                <div class="date"></div>
+            </section>
+            <div class="current">
+                <div class="temp"></div>
+                <div class="weather"></div>
+                <div class="hi-low"></div>
+            </div>
+        </main>
+        <div class="about">Made with <span style="color: red;">&hearts;</span> by Shashank Shirol.</div>
+    </div>
     
+    <script src="/assets/scripts/main.js"></script>
 </body>
 </html>
