@@ -99,7 +99,7 @@ main{
 
 .about{
     font-family: 'Nunito Sans', Calibri, 'Trebuchet MS', sans-serif;;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     padding-bottom: 10px;
